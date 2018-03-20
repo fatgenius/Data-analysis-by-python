@@ -5,10 +5,14 @@ login.py will be the code for auto login a website can use code to instead of th
           but the login.py file do not have the function to handle the captcha 
           need use the opencv or other method to handle that 
 
-first start the project scrapy : scrapy projectname
-                build the spider: scrapy genrate projectname
-                                  scrapy genrate projectname + domain name 
-                                  
+
+
+first start the project scrapy :    scrapy projectname
+                build the spider:   scrapy genrate projectname
+                                    scrapy genrate projectname + domain name 
+        
+       
+       
 use the css or the xpatch to find the iteams;
 scrapy shell:
 fetch('website name ') 
