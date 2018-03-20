@@ -8,8 +8,12 @@ login.py will be the code for auto login a website can use code to instead of th
 
 
 first start the project scrapy :    scrapy projectname
-                build the spider:   scrapy genrate projectname
-                                    scrapy genrate projectname + domain name 
+
+
+ build the spider:   scrapy genrate projectname
+                
+                
+ scrapy genrate projectname + domain name 
         
        
        
