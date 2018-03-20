@@ -28,4 +28,9 @@ using pipline to process the image: image p
 first install pillow 
 in the setting must enable the pipline to process image 
 also set the pic location 
-##readlink -f to check the file path 
+##readlink -f to check the file path
+
+or do it in the shell 
+scrapy crawl sportsdirect --set FEED_URI=product_image.jl --set IMAGES_STORE=images
+
+
