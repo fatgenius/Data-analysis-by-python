@@ -11,4 +11,13 @@ first start the project scrapy : scrapy projectname
                                   
 use the css or the xpatch to find the iteams;
 scrapy shell:
-fetch('website name ')
+fetch('website name ') 
+
+running the scrapy project using :scrapy crawl projectname
+save the jasonfile: scrapy crawl --set FEED_URI= filename.JL
+
+using pipline to process the image: image p
+first install pillow 
+in the setting must enable the pipline to process image 
+also set the pic location 
+##readlink -f to check the file path 
